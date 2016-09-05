@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yebei">
+    <ImageView
+        android:id="@+id/yiiv"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@mipmap/dbiaoti"/>
+    <EditText
+        android:id="@+id/edt"
+        android:layout_below="@id/yiiv"
+        android:layout_margin="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="@string/write"
+        android:background="@mipmap/sousuokuang"/>
+
+
+</RelativeLayout>
